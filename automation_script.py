@@ -51,8 +51,8 @@ def sendEmail(to, content):
         server.ehlo()
         server.starttls()
         # Use environment variables or a more secure method for credentials
-        server.login('aabderrahmane665@gmail.com', 'adbo(222)')
-        server.sendmail('aabderrahmane665@gmail.com', to, content)
+        server.login('your-email@gmail.com', 'your-app-password')
+        server.sendmail('your-email@gmail.com', to, content)
         server.close()
         speak('Your email has been sent successfully')
     except smtplib.SMTPAuthenticationError:
@@ -106,7 +106,7 @@ if __name__ == '__main__':
                     speak('What should I send?')
                     content = takecommand()
                     if content: 
-                        to = 'a.aid@esi-sba.dz'
+                        to = 'recipient@example.com'
                         sendEmail(to, content)
                 except Exception as e:
                     print(e)

@@ -18,7 +18,7 @@ A Python-based voice assistant that can perform various tasks such as searching 
 2. Navigate to the project directory:
 
    ```sh
-   cd daily-activity-automation-assistant
+   cd voice-assistant
 3. Install the required packages:
    Create a requirements.txt file in your project directory with the following content:
 

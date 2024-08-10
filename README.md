@@ -25,7 +25,7 @@ git clone https://github.com/abderrahmane-stack/voice-assistan.git
 Move into the project directory:
 
 ```bash
-cd voice-assistant
+cd voice-assistan
 ```
 
 ### 3. Set Up a Virtual Environment (Optional but Recommended)

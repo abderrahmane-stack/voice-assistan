@@ -17,7 +17,7 @@ A Python-based voice assistant that automates various tasks, such as searching W
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/voice-assistant.git
+git clone https://github.com/abderrahmane-stack/voice-assistant.git
 ```
 
 ### 2. Navigate to the Project Directory
